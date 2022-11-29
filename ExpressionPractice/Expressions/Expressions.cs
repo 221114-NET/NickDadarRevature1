@@ -9,7 +9,7 @@ class Expressions
         test[0] = "Cyan";
         Console.WriteLine(test[0]);
 
-        Console.WriteLine($"Name: {test.catName}   Color: {test.ToString}");
+        Console.WriteLine($"Name: {test.catName}   Color: {test[0]}");
     }
 }
 
